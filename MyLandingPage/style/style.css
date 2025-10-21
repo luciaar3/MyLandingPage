@@ -104,13 +104,13 @@ body {
     color: #555;
 }
 
-.detsacados {
+.destacados {
     max-width: 1000px;
     margin: 50px auto;
     text-align: center;
 }
 
-.detsacados h2 {
+.destacados h2 {
     color: #ff7ca0;
     margin-bottom: 30px;
     font-size: 2rem;
@@ -153,7 +153,7 @@ body {
     color: #555;
 }
 
-.detsacados .button {
+.destacados .button {
     display: inline-block;
     background-color: #ffb6c1;
     color: white;
@@ -165,7 +165,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.detsacados .button:hover {
+.destacados .button:hover {
     background-color: #ff8ca3;
 }
 
