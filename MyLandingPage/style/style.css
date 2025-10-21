@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fffafc;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 50px 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.header .text {
+    flex: 1;
+    margin-left: 10px;
+    min-width: 250px;
+}
+
+.header h1 {
+    margin: 0 0 5px 0;
+}
+
+.header h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.header .button {
+    display: inline-block;
+    background-color: white;
+    color: #ff7ca0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.header .button:hover {
+    background-color: #f0eaed;
+}
+
+.story-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.story {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3);
+}
+
+.story h2 {
+    color: #ff7ca0;
+    margin-bottom: 15px;
+}
+
+.story p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.story-aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.story-aside img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.3);
+}
+
+.story-aside p {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+.detsacados {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.detsacados h2 {
+    color: #ff7ca0;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(255, 182, 193, 0.3);
+    padding: 15px;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.5);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    color: #ff7ca0;
+    margin: 10px 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.product p {
+    font-weight: bold;
+    color: #555;
+}
+
+.detsacados .button {
+    display: inline-block;
+    background-color: #ffb6c1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.detsacados .button:hover {
+    background-color: #ff8ca3;
+}
+
+.comprar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.comprar h2 {
+    color: #ff7ca0;
+    margin: 40px 0 20px 0;
+    font-size:1.9rem;
+}
+
+.comprar .button {
+    background-color: #ffb6c1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.comprar .button:hover {
+    background-color: #ff8ca3;
+}
+
+footer {
+    background-color: #ffeaf1;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
